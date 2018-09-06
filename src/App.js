@@ -13,6 +13,7 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
+import Home from './components/Home/Home';
 
 class App extends Component {
   state={
@@ -43,6 +44,7 @@ class App extends Component {
                   </Nav>
               </Collapse>
           </Navbar>
+        <Home/>
       </div>
     );
   }
